@@ -1,0 +1,29 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "10.2.6",
+    "browser-sync": "2.27.4",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-csso": "4.0.1",
+    "gulp-header": "2.0.9",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.0",
+    "gulp-posthtml": "3.0.5",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "5.0.0",
+    "sass": "1.35.2"
+  }
+}
