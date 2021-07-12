@@ -1,0 +1,161 @@
+.brokers-settings {
+  padding: 30px 30px 100px 30px;
+
+  &__main-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    color: $text;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 1px;
+  }
+
+  &__update-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 100px;
+    min-height: 36px;
+
+    background: $green;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: $white;
+    line-height: 20px;
+  }
+
+  &__logo {
+    width: 50%;
+    padding: 40px 30px 26px;
+
+    background: $white;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+
+    &:first-child {
+      margin-right: 30px;
+    }
+
+    &__wrapper {
+      display: flex;
+
+      margin-bottom: 30px;
+    }
+
+    &__title {
+      display: block;
+      margin-bottom: 26px;
+
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      color: $text;
+      line-height: 20px;
+    }
+
+    &__item {
+      width: 100%;
+      max-width: 500px;
+      padding: 40px 30px 26px;
+
+      background-color: $white;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+
+    &__input__wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__styled-input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 120px;
+      height: 120px;
+
+      border: 1px dashed $text-white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+
+  &__form {
+    margin-bottom: 32px;
+    padding: 30px 30px 40px;
+
+    background: $white;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+
+    &__wrapper {
+      display: flex;
+      align-items: center;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+
+      &:last-child {
+        margin-bottom: 40px;
+      }
+    }
+
+    &__input {
+      width: 100%;
+      height: 36px;
+      padding: 0 12px;
+
+      background-color: transparent;
+      border: 1px solid $text-white;
+      border-radius: 4px;
+      outline: none;
+
+      transition: 0.2s ease;
+
+      &:focus {
+        border-color: $grey-little;
+      }
+    }
+
+    &__title {
+      display: block;
+      width: 200px;
+      margin-right: 100px;
+
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      color: $text;
+      line-height: 20px;
+    }
+
+    &__checkbox {
+      display: flex;
+      align-items: center;
+
+      cursor: pointer;
+
+      &__title {
+        margin-left: 30px;
+
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        color: $text;
+        line-height: 20px;
+      }
+    }
+  }
+}
